@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg ,rgba(137, 25, 172, .8),rgba(61, 8, 146, .8), rgba(44, 0, 114, .8) ,rgba(135, 4, 187,.8));
+    height: 100vh;    
+}
+
+.container {
+    display: flex;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.corpo {
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    background: linear-gradient(180deg ,rgba(137, 25, 172, .8),rgba(61, 8, 146, .8), rgba(44, 0, 114, .8) ,rgba(135, 4, 187,.8));
+    border-radius: 40px;
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black ;
+}
+
+.corpo h2 {
+    font-weight: 500px;
+    text-transform: uppercase;
+
+}
+
+.corpo h3 {
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+.corpo h1 {
+    text-transform: uppercase;
+}
+
+.corpo input {
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    height: 25px;
+    border-radius: 40px;
+}
+#resultado {
+    display: inline-block;
+    height: 50px;
+    width: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgb(107, 5, 5);
+    color: #fff;
+    border: 2px solid black;
+}
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#aBa {
+    font-weight: 1000;
+    height: 60px;
+    font-size: large;
+
+}

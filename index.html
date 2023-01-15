@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora De Gorjeta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="corpo">
+            <div>
+                <h2>valor total :</h2>
+                <input value="" type="text" name="Valor" id="valor" placeholder="Valor da conta..." required>
+            </div>
+            <div>
+                <h3>% da gorjeta :</h3>
+                <input value="" type="text" name="Valor" id="gorjeta" placeholder="Apenas a numeração..." min="0" max="100" required>
+            </div>
+            <div>
+                <h3>Quantidade de pessoas na mesa :</h3>
+                <input value="" type="text" name="qntd_pessoas" id="pessoas" placeholder="Quantidade de pessoas..">
+            </div>
+            <div>
+                <input type="submit" id="resultado" onclick="calcular()">
+            </div>
+            <div>
+                <h1>Valor com gorjeta :</h1>
+                <input class="resultado" type="text" name="resultado" id="aBa" placeholder="Valor com gorjeta">
+            </div>
+        </div>
+        <script src="index.js" ></script>
+    </section>
+
+</body>
+
+</html>
